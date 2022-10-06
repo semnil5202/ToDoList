@@ -8,10 +8,17 @@
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    <form class="login-form">
-      <input class="login-input" type="text" placeholder="What's your name?" />
-      <button>Submit</button>
+    <form class="login-form hidden">
+      <input
+        class="login-input"
+        type="text"
+        placeholder="What's your name?"
+        maxlength="8"
+      />
+      <button>확인</button>
     </form>
-    <script src="./app.js"></script>
+    <h1 class="hello hidden"></h1>
+
+    <script src="./js/login.js"></script>
   </body>
 </html>
