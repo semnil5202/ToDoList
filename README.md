@@ -23,6 +23,7 @@ LocalStorage를 활용한 To Do List
 - Weather : https://openweathermap.org
 - Images : https://www.pexels.com/ko-kr/
 
-## :star:
+## 결과
 
+웹페이지 ➡️ https://semnil5202.github.io/ToDoList/
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/89172499/194749515-d8afec32-b72e-4a34-a707-316e098a9e6b.gif)
