@@ -1,3 +1,119 @@
+/* global */
+* {
+  margin: 0;
+  padding: 0;
+}
 .hidden {
   display: none;
+}
+
+/* backgroud */
+.background-img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+/* clock */
+.clock {
+  color: #ffffff;
+  font-size: 150px;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -34%);
+}
+
+/* login */
+.login-form {
+  width: 200px;
+  color: #ffffff;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login-input {
+  width: 100%;
+  height: 32px;
+  color: #ffffff;
+  font-size: 16px;
+  border-bottom: 1;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: #d3d3d3;
+  text-align: center;
+  background-color: transparent;
+}
+.login-input::placeholder {
+  color: #d3d3d3;
+  font-size: 16px;
+}
+.hello {
+  color: #ffffff;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* todos */
+.todos-form {
+  color: #ffffff;
+  font-size: 36px;
+  position: absolute;
+  top: 66%;
+  left: 50%;
+  transform: translate(-50%, -66%);
+}
+.todos-input {
+  width: 100%;
+  height: 32px;
+  color: #ffffff;
+  font-size: 16px;
+  border-bottom: 1;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: #d3d3d3;
+  padding-left: 20px;
+  background-color: transparent;
+}
+.todos-list {
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+  font-size: 24px;
+  width: 480px;
+  overflow: hidden;
+  position: absolute;
+  top: 73%;
+  left: 51%;
+  transform: translate(-51%);
+}
+.todos-item {
+  width: 160px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+/* quotes */
+.quotes {
+  color: #ffffff;
+  position: absolute;
+  top: 99%;
+  left: 50%;
+  transform: translate(-50%, -99%);
+}
+
+/* weather */
+.weather-container {
+  color: #ffffff;
+  position: absolute;
+  top: 1%;
+  right: 1%;
 }
