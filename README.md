@@ -18,9 +18,10 @@ LocalStorage를 활용한 To Do List
 - 완료한 List는 클릭하여 삭제
 - 사용자 위치 조회 후 날씨 정보 제공
 
-## API
+## API 및 출처
 
 - Weather : https://openweathermap.org
+- Images : https://www.pexels.com/ko-kr/
 
 ## :star:
 
