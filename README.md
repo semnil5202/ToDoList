@@ -27,4 +27,4 @@ LocalStorage를 활용한 To Do List
 
 웹페이지 ➡️ https://semnil5202.github.io/ToDoList/
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/89172499/194749515-d8afec32-b72e-4a34-a707-316e098a9e6b.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/89172499/194856798-e88ec835-a1ba-42ab-9c48-93a130504d49.gif)
