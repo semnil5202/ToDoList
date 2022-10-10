@@ -1,6 +1,8 @@
 const loginForm = document.querySelector(".login-form");
 const loginInput = document.querySelector(".login-input");
 const helloString = document.querySelector(".hello");
+const toFo = document.querySelector(".todos-form");
+const toLi = document.querySelector(".todos-list");
 const getUserName = localStorage.getItem("USERNAME");
 
 function checkTime() {
@@ -23,7 +25,13 @@ function setLocalStorage(userName) {
 
 function renderUser(userName) {
   helloString.innerText = `${checkTime()} ${userName}`;
+  removeHiddenClass();
+}
+
+function removeHiddenClass() {
   helloString.classList.remove("hidden");
+  toFo.classList.remove("hidden");
+  toLi.classList.remove("hidden");
 }
 
 function loginFormSubmit(e) {
