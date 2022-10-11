@@ -6,9 +6,9 @@ const toLi = document.querySelector(".todos-list");
 const getUserName = localStorage.getItem("USERNAME");
 
 function checkTime() {
-  if (new Date().getHours() < 6) {
+  if (new Date().getHours() > 5) {
     return "Good morning,";
-  } else if (new Date().getHours() < 18) {
+  } else if (new Date().getHours() > 11 && new Date().getHours() < 18) {
     return "Good afternoon,";
   } else return "Good evening,";
 }
