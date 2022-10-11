@@ -14,7 +14,7 @@ function checkTime() {
 }
 
 function setLocalStorage(userName) {
-  const userNameRegexp = /^[a-zA-Z].{2,8}$/;
+  const userNameRegexp = /^[a-zA-Z].{1,8}$/;
   if (userNameRegexp.test(userName)) {
     localStorage.setItem("USERNAME", userName);
     return true;
